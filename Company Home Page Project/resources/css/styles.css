@@ -1,0 +1,139 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    margin: auto;
+    text-align: center;
+}
+header {
+    position: fixed;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-height: 12rem;
+    background-color:white;
+    top: 0;
+}
+
+header h1 {
+    display: block;
+    justify-content: center;
+    margin-bottom: 0rem;
+    text-align: center;
+    width: auto;
+}
+
+header nav {
+    display: flex;
+    text-align: center;
+    text-decoration: underline;
+    justify-content: space-evenly;
+    width: auto;
+    padding-right: 3rem;
+}
+
+header nav a {
+    color: black;
+}
+
+header nav a:hover {
+    color: grey;
+}
+.main {
+    padding-top: 7.75rem;
+}
+.banner-container {
+    display: flex;
+    height: 25rem;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+}
+.banner-content {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+}
+.banner-text {
+    display: flex;
+    justify-content: center;    
+}
+.portfolio-container {
+    padding-top: 4.375rem;
+    font-size: 1.25rem;
+}
+
+.portfolio-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cat-picture {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cat-picture img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 12.5rem;
+    padding: 0.625rem;
+    height: 9.5625rem;
+}
+
+.cat-picture span {
+    padding: 5px;
+    min-width: 240px;
+    max-width: 240px;  
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.team-container h2 {
+    font-size: x-large;
+}
+.team {
+    background-image: url(../images/Brick_wall.jpg);
+    padding: 0.625rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.teammate {
+    padding: 0.625rem;
+    color: white;
+    flex-basis: 17.5rem;
+}
+
+.teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 12.5rem;
+    height: 16.66875rem;
+}
+
+.contact {
+    padding-top: 1.25rem;
+}
+
+.copyright {
+    padding-top: 1.25rem;
+}
+
+#portfolio {
+    scroll-margin-top: 7.7875rem;
+}
+
+#banner {
+    scroll-margin-top: 7.7875rem;
+}
+
+#about {
+    scroll-margin-top: 7.7875rem;
+}
